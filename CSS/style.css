@@ -69,7 +69,7 @@ nav a:hover {
 }
 .explore-desc {
     padding-top: 1.5rem;
-    margin-left: 12rem;
+    margin: 0 auto;
     color: #FFF;
     font-size: 1rem;
     font-weight: 400;
@@ -91,6 +91,227 @@ nav a:hover {
 .explore-btn button {
     width: 11rem;
     height: 3rem;
+    cursor: pointer;
 }
 /* explore travel ends  */
 
+/* popular container styles start  */
+.popular-container {
+    margin-top: 6rem;
+    display: flex;
+}
+.popular-content {
+    padding-right: 2rem;
+}
+.popular-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.popular-desc {
+    margin-top: 1.5rem;
+    width: 577px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+}
+.popular-list {
+    margin-top: 1rem;
+    color: rgba(19, 19, 24, 0.70);
+}
+.popular-list li {
+    padding: .5rem;
+    width: 520px;
+    font-size: 1rem;
+    font-weight: 400;
+    list-style-position: inside;
+}
+.popular-desc2 {
+    margin-top: 1.5rem;
+    width: 530px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.70);
+}
+.popular-btn {
+    margin-top: 2rem;
+    width: 11rem;
+    height: 3rem;
+    color: #FFF;
+    border-radius: 8px;
+    background: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 400;
+    border-style: none;
+    text-align: center;
+    cursor: pointer;
+}
+.popular-img img{
+    width: 28rem;
+    height: 30rem;
+    object-fit: cover;
+    border-radius: 16px;  
+}
+/* popular container styles ends */
+
+/* destination styles start  */
+.destination-container {
+    margin-top: 6rem;
+}
+.destination-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.destination-desc {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    width: 636px;
+    margin: 0 auto;
+}
+.destination-img {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* destination styles ends */
+
+/* service section start  */
+.service-container {
+    display: flex;
+}
+.service-info {
+
+}
+.service-info3 {
+    margin: 0 auto;
+}
+/* service section ends */
+
+/* newsletter styles start */
+/* newsletter styles ends*/
+.newsletter {
+    margin-top: 6rem;
+    display: flex; 
+}
+.newsletter-content {
+    width: 474px;
+    height: 422px;
+    padding: 2.5rem;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+}
+.newsletter-title {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.newsletter-desc {
+    padding-top: 1rem;
+    color: #5A5A5D;
+    width: 350px;
+    height: 52px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+hr {
+    margin-top: 1.5rem;
+    background: rgba(19, 19, 24, 0.10);
+    width: 393px;
+    height: 1px;
+}
+.newsletter-img img {
+    width: 570px;
+    height: 422px;
+    margin-left: 1.5rem;
+}
+.text {
+    margin-top: 1.5rem;
+    width: 393px;
+    height: 52px;
+    padding: 16px 20px;
+    background: rgba(19, 19, 24, 0.05);
+    border-radius: 8px;
+    border-style: none;
+}
+.email {
+    margin-top: 1.5rem;
+    width: 393px;
+    height: 52px;
+    padding: 16px 20px;
+    background: rgba(19, 19, 24, 0.05);
+    border-radius: 8px;
+    border-style: none;
+   
+}
+.newsletter-btn {
+    margin-top: 1.5rem;
+    width: 393px;
+    height: 52px;
+    color: #FFF;
+    background: #FF5400;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 1.25rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+/* footer styles start  */
+footer {
+    margin-top: 6rem;
+    width: 100%;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 3px solid darkgoldenrod;
+}
+.footer-title  {
+    padding-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.lavender {
+    color: #FF5400;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-left: 1rem;
+}
+.footer-title img {
+    width: 50px;
+    padding-right: 1rem;
+}
+.footer-desc {
+    text-align: center;
+    width: 760px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.social-icon {
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.social-icon a {
+    padding: 0.5rem;
+
+}
+.hr2{
+    margin: 0 auto;
+    width: 822px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+} 
+.all {
+    margin-top: 3rem;
+    text-align: center;
+}
+/* footer styles ends */
