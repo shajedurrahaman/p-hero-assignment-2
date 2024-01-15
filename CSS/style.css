@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Mulish:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600&family=Work+Sans:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFF;;
+    padding: 2rem 8rem;
+    font-family: 'Mulish', sans-serif;
+}
+/* header styles start  */
+ nav {
+    display: flex;
+    padding: 5px 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #424247;
+}
+nav a:hover {
+    color:deeppink;
+}
+.site-logo {
+    flex: 1;
+    color: #131318;
+}
+.site-logo a {
+    display: flex;
+    align-items: center;
+}
+.site-logo img  {
+    width: 40px;  
+    margin-right: 10px; 
+}
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.menu li {
+    padding: 15px 20px;
+}
+.toggle {
+    font-size: 2rem;
+    display: none;
+}
+/* header style end  */
+
+/* explore travel start  */
+.explore {
+    margin-top: 4rem;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width:  1050px;
+    height: 500px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+}
+.explore-title {
+    padding-top: 7rem;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.explore-desc {
+    padding-top: 1.5rem;
+    margin-left: 12rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 42.5rem;
+    height: 3rem;
+    align-items: center;
+}
+.explore-btn {
+    margin-top: 3rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    width: 768px;
+    height: 52px;
+}
+.explore-btn button {
+    width: 11rem;
+    height: 3rem;
+}
+/* explore travel ends  */
+
