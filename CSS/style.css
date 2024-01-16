@@ -509,28 +509,206 @@ footer {
         padding: 0;
     }
     nav,
-    .site-logo,
     .menu, 
-    .explore-btn {
+    .popular-container,
+    .choose-service-container,
+    .special-container, 
+    .newsletter {
         flex-direction: column;
     }
-    nav {
-        display: block;
-        position: relative;
-        padding: 15px 20px;
+    .site-logo {
+        width: 28px;
+        height: 33px;
+        flex-direction: row;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
     .menu {
         margin-top: 15px;
         margin-left: 0;
         display: none;
     }
-    .site-logo {
-        margin: 0;
-        padding-left: 0;
-    }
     .menu.active,.toggle {
         position: absolute;
         top: 15px;
         right: 20px;
+    }
+    .explore {
+        width: 335px;
+        height: 483px;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    .explore-title {
+        font-size: 1.5rem;
+        padding-top: 2rem;
+    }
+    .explore-btn {
+        margin-top: 5rem;
+        flex-direction: column;
+        width: 271px;
+        height: 288px;
+        padding:16px;
+    }
+    .explore-desc {
+        padding-top: 0.5rem;
+        width: 304px;
+    }
+    .popular-container {
+        margin-top: 1.25rem;
+    }
+    .popular-title {
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+    .popular-desc {
+        width: 335px;
+    }
+    .popular-content {
+        padding-left: 2.5rem;
+    }
+    .popular-list li {
+        text-align: center;
+        width: 335px;
+    }
+    .popular-desc2 {
+        width: 335px;
+    }
+    .popular-btn {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    .popular-img img {
+        width: 335px;
+        height: 342px;
+        margin-left: 2rem;
+    }
+    .destination-container {
+        margin-top: 1.5rem;
+    }
+    .destination-title {
+        font-size: 1.25rem;
+    }
+    .destination-desc {
+        width: 309px;
+    }
+    .destination-img {
+        display: inline-block;
+        margin-top: 1rem;
+    }
+    .destination-img img {
+        width: 335px;
+        height: 176px;
+        margin-left: 2.5rem;
+        padding-top: 1rem;
+    }
+    .choose-title {
+        font-size: 1.25rem;
+    }
+    .choose-desc {
+        width: 309px;
+    }
+    .service-container {
+        width: 335px;
+        height: 289px;
+    }
+    .service-title {
+        font-size: 1.25rem;
+    }
+    .service-desc {
+        width: 271px;
+    }
+    .service-container img {
+        width: 3rem;
+        height: 3rem;
+    }
+    #service-container {
+        margin-left: 20px;
+    }
+    #service-container3 {
+        padding-left: 0;
+    }
+    .container-title {
+        margin-top: 2rem;
+        font-size: 1.25rem;
+        margin-bottom: 0;
+    }
+    .special-container {
+        margin-top: 0;
+    }
+    .special-box img {
+        margin-top: 0;
+        width: 335px;
+        margin-top: 2rem;
+    }
+    .special-desc {
+        width: 304px;
+        margin: 0 auto;
+    }
+    .newsletter {
+        margin-top: 1.5rem;
+    }
+    .newsletter-content {
+        width: 355px;
+        height: 390px;
+        margin: 0 auto;
+    }
+    .newsletter-desc {
+        width: 270px;
+    }
+    hr {
+        width: 285px;
+        margin-bottom: 1rem;
+    }
+    .text {
+        margin-top: 1rem;
+        width: 288px;
+        height: 52px;
+    }
+    .email {
+        margin-top: 1rem;
+        width: 288px;
+        height: 52px;
+    }
+    .newsletter-btn {
+        margin-top: 1rem;
+        width: 288px;
+        height: 52px;
+    }
+    .newsletter-img img {
+        margin-top: 1rem;
+        width: 335px;
+        height: 300px;
+        margin-left: 2.5rem;
+    }
+    .save-box {
+        width: 214px;
+        background-color: #FF5400;
+        position: relative;
+        top: 100%;
+        left: 50%;
+        transform: translate(50%, 100%);
+        text-align: center;
+        border-radius: 16px;
+        margin-bottom: 3rem;
+        /* transform: rotate(-20deg); */
+    }
+    .save-title {
+        font-size: 1.25rem;
+    }
+    .footer-title {
+        flex-direction: row;
+        padding-right: 5px;
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    .lavender {
+        font-size: 1.25rem;
+    }
+    .footer-desc {
+        width: 287px;
+    }
+    .hr2 {
+        width: 335px;
     }
 }
