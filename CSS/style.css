@@ -504,10 +504,10 @@ footer {
 
 /* responsive for mobile devices  */
 @media screen and (max-width: 600px) {
-    /* body {
+    body {
         margin: 0;
         padding: 0;
-    } */
+    }
     nav,
     .menu, 
     .popular-container,
@@ -682,15 +682,11 @@ footer {
         margin-left: 2.5rem;
     }
     .save-box {
-        width: 214px;
-        background-color: #FF5400;
-        position: relative;
-        top: 100%;
-        left: 50%;
-        transform: translate(50%, 100%);
-        text-align: center;
-        border-radius: 16px;
+        width: 212px;
         margin-bottom: 3rem;
+        top: 100%;
+        left: 100%;
+        transform: translate(50%, 50%);
         /* transform: rotate(-20deg); */
     }
     .save-title {
