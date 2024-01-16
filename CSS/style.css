@@ -516,6 +516,11 @@ footer {
     .newsletter {
         flex-direction: column;
     }
+    nav {
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
     .site-logo {
         width: 28px;
         height: 33px;
@@ -529,6 +534,9 @@ footer {
         display: none;
     }
     .menu.active,.toggle {
+        display: block;
+    }
+    .toggle {
         position: absolute;
         top: 15px;
         right: 20px;
