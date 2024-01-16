@@ -42,12 +42,8 @@ nav a:hover {
     align-items: center;
     margin-left: 7rem;
 }
-/* .menu ul li {
-    margin-left: 2rem;
-} */
 .menu li {
     padding: 0 20px;
-
 }
 .toggle {
     font-size: 2rem;
@@ -64,10 +60,6 @@ nav a:hover {
     width:  1050px;
     height: 500px;
     text-align: center;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; */
 }
 .explore-title {
     padding-top: 7rem;
@@ -696,7 +688,7 @@ footer {
         position: absolute;
         top: 83.5%;
         left: 38%;
-        /* transform: rotate(-20deg); */
+        transform: rotate(-20deg);
     }
     .save-title {
         font-size: 1.25rem;
