@@ -688,13 +688,14 @@ footer {
         width: 335px;
         height: 300px;
         margin-left: 2.5rem;
+        position: relative;
     }
     .save-box {
         width: 212px;
-        margin-bottom: 3rem;
-        top: 100%;
-        left: 100%;
-        transform: translate(50%, 50%);
+        height: 82px;
+        position: absolute;
+        top: 83.5%;
+        left: 38%;
         /* transform: rotate(-20deg); */
     }
     .save-title {
