@@ -24,6 +24,8 @@ nav a:hover {
 .site-logo {
     flex: 1;
     color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
 .site-logo a {
     display: flex;
@@ -31,15 +33,23 @@ nav a:hover {
 }
 .site-logo img  {
     width: 40px;  
-    margin-right: 10px; 
+    margin-right: 15px 10px; 
+}
+.site-logo span {
+    color: #FF5400;
+    padding-left: 1rem;
 }
 .menu {
     display: flex;
     list-style: none;
     align-items: center;
 }
+.menu ul li {
+    margin-left: 2rem;
+}
 .menu li {
-    padding: 15px 20px;
+    padding: 0 20px;
+
 }
 .toggle {
     font-size: 2rem;
@@ -174,29 +184,136 @@ nav a:hover {
     margin: 0 auto;
 }
 .destination-img {
-    margin-top: 2rem;
+    margin-top: 3rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.destination-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.destination-img1 {
+    grid-column: 1/span 4;
+    position: relative;
+}
+.destination-img2 {
+    grid-column: 5/span 4;
+    position: relative;
+}
+.destination-img3 {
+    grid-column: 1/span 2;
+    position: relative;
+}
+.destination-img4 {
+    grid-column: 3/span 4;
+    position: relative;
+}
+.destination-img5 {
+    grid-column: 7/span 2;
+    position: relative;
+}
+.destination-img6 {
+    grid-column: 1/span 3;
+    position: relative;
+}
+.destination-img7 {
+    grid-column: 4/span 5;
+    position: relative;
+}
+.center {
+    position: absolute;
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /* destination styles ends */
 
-/* service section start  */
-.service-container {
-    display: flex;
+/* choose section start  */
+.choose {
+    margin-top: 6rem;
+    width: 100%;
+    height: 100%;
 }
-.service-info {
-
+.choose-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 1rem;
 }
-.service-info3 {
+.choose-desc {
+    color: rgba(19, 19, 24, 0.70);
+    width: 640px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
     margin: 0 auto;
 }
-/* service section ends */
+.choose-service-container {
+    flex: 2;
+}
+.service-container {
+    margin-top: 3rem;
+    width: 50%;
+    float: left;
+
+}
+.service-container2 {
+
+}
+.service-container img {
+}
+.service-title {
+    margin-top: 1rem;
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.service-desc {
+    margin-top: 1rem;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 200px;
+    margin-right: 3.5rem;
+}
+ /* choose section ends */
+ 
+/* special places styles start  */
+.special {
+    margin-top: 5rem;
+}
+.container-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+.special-container {
+    margin-top: 4rem;
+    display: flex;
+    width: 500px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+}
+.special-box {
+   
+}
+/* special places styles ends */
 
 /* newsletter styles start */
-/* newsletter styles ends*/
 .newsletter {
     margin-top: 6rem;
     display: flex; 
+    position: relative;
 }
 .newsletter-content {
     width: 474px;
@@ -260,13 +377,13 @@ hr {
     font-weight: 800;
     cursor: pointer;
 }
+/* newsletter styles ends*/
 /* footer styles start  */
 footer {
     margin-top: 6rem;
     width: 100%;
     height: 502px;
     background: rgba(19, 19, 24, 0.05);
-    border: 3px solid darkgoldenrod;
 }
 .footer-title  {
     padding-top: 6rem;
@@ -315,3 +432,25 @@ footer {
     text-align: center;
 }
 /* footer styles ends */
+
+/* responsive for mobile devices  */
+@media screen and (max-width: 600px) {
+    nav,
+    .menu {
+        flex-direction: column;
+    }
+    /* nav {
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    } */
+    .menu {
+        margin-top: 15px;
+        display: none;
+    }
+    .menu.active,.toggle {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+}
