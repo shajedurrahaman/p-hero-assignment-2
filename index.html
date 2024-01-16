@@ -12,7 +12,7 @@
     <header class="header">
         <nav>
             <div class="site-logo">
-                <a href="#"><img src="Images/site-logo-.png" alt="site-logo">Adventure <span>Lavender</span> </a>
+                <img src="Images/site-logo-.png" alt="site-logo">Adventure <span>Lavender</span> 
             </div>
             <div class="toggle">
                 <a href="#">
@@ -42,9 +42,15 @@
             </p>
             <div class="explore-btn">
                 <button>Where go</button>
-                <button>When</button>
-                <button>Select Type</button>
-                <button>Find Now</button>
+                <button>When
+                <ion-icon name="chevron-down-outline"></ion-icon>
+                </button>
+                <button>Select Type <a href="">
+                <ion-icon name="chevron-down-outline"></ion-icon></a>
+                </button>
+                <button id="find-now" class="find-now"><a href="">
+                <ion-icon name="search-outline"></ion-icon></a>Find Now
+                </button>
             </div>
         </section>
         <!-- explore section ends  -->
@@ -132,9 +138,9 @@
             <p class="choose-desc">
                 Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.
             </p>
-            <div class="choose-sevice-container">
-                <div class="service-container">
-                    <img src="Images/location.png" alt="">
+            <div class="choose-service-container">
+                <div id="service-container" class="service-container">
+                    <img src="Images/hotel (2).png" alt="">
                     <h1 class="service-title">
                         Handpicked Hotels
                     </h1>
@@ -142,16 +148,25 @@
                         Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. 
                     </p>
                 </div>
-                <div class="service-container2">
+                <div id="service-container2" class="service-container">
                     <img src="Images/location.png" alt="">
                     <h1 class="service-title">
-                        Handpicked Hotels
+                        World Class Service
                     </h1>
                     <p class="service-desc">
                         Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. 
                     </p>
                 </div>
             </div>  
+            <div id="service-container3" class="service-container">
+                <img src="Images/lock.png" alt="">
+                <h1 class="service-title">
+                    Best Price Guarantee
+                </h1>
+                <p class="service-desc">
+                    Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. 
+                </p>
+            </div>
         </section>
         <!-- choose section ends  -->
         <!-- special place section start  -->
@@ -174,7 +189,7 @@
                         Durban
                     </h1>
                     <p class="special-desc">
-                        Durban is the third-most populous city in South Africa after Johannesburg and Cape Town, and the largest city in KwaZulu-Natal.
+                        Durban is the third-most populous city in South Africa after Johannesburg and Cape Town.
                     </p>
                 </div>
                 <div class="special-box">
@@ -206,6 +221,11 @@
             </div>
             <div class="newsletter-img">
                 <img src="Images/Rectangle 8 (1).png" alt="">
+                    <div class="save-box">
+                        <a href="#">Travel.com</a>
+
+                        <h2 class="save-title">Save up to 70%</h2>
+                    </div>
             </div>
         </section>
         <!-- newsletter section ends -->
